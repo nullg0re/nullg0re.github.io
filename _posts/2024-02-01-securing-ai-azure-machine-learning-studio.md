@@ -4,7 +4,7 @@ Screenshots can be found here: https://web.archive.org/web/20240917153318/https:
 But always music first:
 
 
-Introduction
+# Introduction
 Azure has a Cloud product called The Machine Learning Studio. This studio is a fully equipped Machine Learning lab environment that is tied to your organizations Azure subscription. Itis very easy to use and simplifies the process of creating and training AI/ML Models.
 
 While AI/ML has been at the forefront of the world’s attention lately, one of the things that is usually last on everyone’s mind when developing new technologies is security.
@@ -13,7 +13,7 @@ The question of security surrounding ML/AI is multi-faceted and there are many a
 
 The following will cover the deployment of Machine Learning Studio, the creation of a test training model, and then we’ll leverage some capabilities provided by the Azure infrastructure that will allow us to begin attacking the AI/ML training infrastructure and ultimately allow us to deploy a backdoor into the infrastructure which will give us persistent access to the Azure tenant.
 
-Machine Learning Studio and Model Deployment
+# Machine Learning Studio and Model Deployment
 To get to the Machine Learning Studio, simply open a browser and type https://ml.azure.com into the browser and log in with your Azure credentials. After logging in, you will be presented with this page:
 
 
@@ -22,7 +22,7 @@ Here you will need to create your workspace and resource group. Click + New unde
 
 Click Create and wait for the environment to be deployed.
 
-Building the ML Training Lab
+# Building the ML Training Lab
 After you create the new Workspace, you’ll be redirected to the Workspaces main menu. Here, click on your newly created Workspace name:
 
 
@@ -35,7 +35,7 @@ From here we want to click on Designer in the left tile pane
 After we click Designer we want to hit the giant blue plus sign to Create a new pipeline using classic prebuilt components
 
 
-Creating the Model
+# Creating the Model
 From here were going to move quickly through the model creation process but will call out areas that are interesting from the perspective of security. Instead of providing screenshots for each step, we will only provide screenshots for the areas that might pique a hacker’s interest.
 
 To create the model, we will need to perform the following steps:
@@ -133,6 +133,6 @@ Head over to Assets -> Jobs in the left pane and select your job, here you can w
 Once the pipeline hits the python script, the script will execute resulting in a reverse shell from the deployed compute instance to the attacker’s callback server, where the attacker could establish persistence mechanisms on the compute instance and hide away a backdoor into an organizations Azure tenant:
 
 
-Conclusion
+# Conclusion
 It’s important to keep an eye on traditional security concerns when dealing with new technologies, as standard attacks against AI/ML infrastructure is just as viable as the latest “hotness” of performing prompt injection attacks or any of the interesting new attack classes that have been created since the explosion of AI/ML in the daily lives of us around the world.
 

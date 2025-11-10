@@ -4,7 +4,7 @@ Screenshots can be found here: https://web.archive.org/web/20240917142356/https:
 As always, jams:
 
 
-Introduction
+# Introduction
 While performing research recently I discovered an Azure RBAC role that, by default, is able to perform actions within the Azure portal that appeared to be more than it should have been allowed.
 
 The Azure RBAC Role I’m referring to is the Avere Contributor role used to manage all things Avere vFXT for Azure.
@@ -35,7 +35,7 @@ The Avere Contributor role can create backups of any Virtual Machine in an organ
 
 The Download
 To create the VM backup, a Threat Actor with the Avere Contributor role could use the following Python snippet:
-
+```python
 def get_backup_url(token, subscriptionId, resourceGroup, vmDiskImage):
     url = "https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Compute/disks/{vmDiskImage}/BeginGetAccess?api-version=2022-03-02"
     headers = {
@@ -80,12 +80,13 @@ def get_backup_url(token, subscriptionId, resourceGroup, vmDiskImage):
     else:
          print (f"[ ! ] GetBackupUrlError: Invalid Status Code: {req.status_code}\r\n\r\n{req.text}")
          exit()
+```
 This snippet will send a request to Azure, asking Azure to create the backup Virtual Machine Disk Image (VMDK), and then store the VMDK inside of a storage account. After performing this action, Azure’s API will respond to the request with a Shared Access Signature (SAS) URL for the VMDK file sitting in the storage account.
 
 The Threat Actor would then take the SAS URL and open the URL in a browser, which would trigger the download of the VMDK file:
 
 
-Local Mounts
+# Local Mounts
 With the VMDK downloaded, the attacker would then need to use a tool like kpartx to partition the VMDK and attach it to the attackers local Linux filesystem:
 
 
@@ -101,7 +102,7 @@ A Threat Actor could crack these NTLM hashes offline or use pass-the-hash attack
 
 Speaking of Kerberos, if the organization has DesktopSSO enabled, this could be a means for the Threat Actor to pivot back into the cloud as a Global Administrator in cases where MFA isn’t required for a Global Admin account.
 
-MSRC Response
+# MSRC Response
 I submitted this vulnerability to Microsoft on March 23, 2024. MSRC Responded on May 7th, 2024 as follows:
 
 
@@ -119,9 +120,9 @@ Regards,
 
 MSRC
 
-Detection
+# Detection
 Below is a KQL query you can use to see if this role is being used in your environment to exploit this issue:
-
+```
 AzureActivity
 | where OperationNameValue == "MICROSOFT.COMPUTE/DISKS/BEGINGETACCESS/ACTION"
 | where tostring(parse_json(Authorization).evidence.role) == "Avere Contributor"
@@ -130,6 +131,7 @@ If you would like to see any instance where a user has attempted create a backup
 AzureActivity
 | where OperationNameValue == "MICROSOFT.COMPUTE/DISKS/BEGINGETACCESS/ACTION"
 Conclusion
+```
 I identified a vulnerability within Microsoft Azure where the “Avere Contributor Role” can be used to download Disk Images of Virtual Machines and extract secrets from the downloaded VMDK files.  This vulnerability can lead to privilege escalation within an Azure tenant, within an on-premises environment, and can be used to move laterally within both the cloud environment and an organizations on-premises environment.
 
 
