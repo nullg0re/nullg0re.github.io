@@ -14,7 +14,7 @@ I have been in the industry for approximately 7 years and have earned the follow
   * OSWE
   * OSEP
   * OSEE
-eLearnSecurity
+* eLearnSecurity
   * eJPT
   * eWAPT
   * eMAPT
