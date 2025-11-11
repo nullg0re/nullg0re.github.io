@@ -35,44 +35,32 @@ I live in the Chicagoland area with my wife Amber, my three kids, and my two dog
 Some of my previous work can be found:
 
 ## Speaking Engagments
-- Whoami Podcast: Episode 1
-https://www.youtube.com/watch?v=rE2eBnE1LtA
+- ![Whoami Podcast: Episode 1](https://www.youtube.com/watch?v=rE2eBnE1LtA)
 
 - Secureworks 2023 Threat Intelligence Summit
 
-- BlackHat USA 2022 Arsenal: WhiskeySAML&Friends
-https://www.blackhat.com/us-22/arsenal/schedule/#whiskeysaml-and-friends-26670
+- ![BlackHat USA 2022 Arsenal: WhiskeySAML&Friends](https://www.blackhat.com/us-22/arsenal/schedule/#whiskeysaml-and-friends-26670)
 
-- BlackHat Europe 2021 Arsenal: WhiskeySAML&Friends
-https://www.blackhat.com/eu-21/arsenal/schedule/#whiskeysaml-and-friends-25024
+- ![BlackHat Europe 2021 Arsenal: WhiskeySAML&Friend](https://www.blackhat.com/eu-21/arsenal/schedule/#whiskeysaml-and-friends-25024)
 
 ## External Blog Postings
-- Permissive Avere Contributor Role Allows VM Credential Dumping
-https://www.secureworks.com/research/permissive-avere-contributor-role-allows-virtual-machine-credential-dumping
+- ![Permissive Avere Contributor Role Allows VM Credential Dumping](https://www.secureworks.com/research/permissive-avere-contributor-role-allows-virtual-machine-credential-dumping)
 
-- Azure Redirect URI Takeover Vulnerability Threat Analysis
-https://www.secureworks.com/research/azure-redirect-uri-takeover-vulnerability
+- ![Azure Redirect URI Takeover Vulnerability Threat Analysis](https://www.secureworks.com/research/azure-redirect-uri-takeover-vulnerability)
 
-- WhiskeySAML&Friends Golden SAML Exploitation Toolkit
-https://www.secureworks.com/blog/going-for-the-gold-penetration-testing-tools-exploit-golden-saml
+- ![WhiskeySAML&Friends Golden SAML Exploitation Toolkit](https://www.secureworks.com/blog/going-for-the-gold-penetration-testing-tools-exploit-golden-saml)
 
-- Azure Active Directory Domain Service Privilege Escalation
-https://www.secureworks.com/research/azure-active-directory-domain-services-escalation-of-privilege
+- ![Azure Active Directory Domain Service Privilege Escalation](https://www.secureworks.com/research/azure-active-directory-domain-services-escalation-of-privilege)
 
-- PEN-300: Evasion Techniques and Breaching Defenses Review
-https://www.offsec.com/offsec/pen300-osep-review-nullg0re/
+- ![PEN-300: Evasion Techniques and Breaching Defenses Review](https://www.offsec.com/offsec/pen300-osep-review-nullg0re/)
 
 ## Open-Source Tools (Outside of Personal GitHub)
-- WhiskeySAML&Friends Golden SAML Attack Framework
-https://github.com/secureworks/whiskeysamlandfriends
+- ![WhiskeySAML&Friends Golden SAML Attack Framework](https://github.com/secureworks/whiskeysamlandfriends)
 
-- Cloudy-Loot
-https://github.com/secureworks/Cloudy-Loot
+- ![Cloudy-Loot](https://github.com/secureworks/Cloudy-Loot)
 
-- Family of Client IDs (FOCI) Research
-https://github.com/secureworks/family-of-client-ids-research
+- ![Family of Client IDs (FOCI) Research](https://github.com/secureworks/family-of-client-ids-research)
 
 ## Published Research
-- Family of Client IDs
-https://www.researchgate.net/publication/360490896_Family_Matters_Abusing_Family_Refresh_Tokens_to_Gain_Unauthorised_Access_to_Microsoft_Cloud_Services_Exploratory_Study_of_Azure_Active_Directory_Family_of_Client_IDs
+- ![Family of Client IDs Research](https://www.researchgate.net/publication/360490896_Family_Matters_Abusing_Family_Refresh_Tokens_to_Gain_Unauthorised_Access_to_Microsoft_Cloud_Services_Exploratory_Study_of_Azure_Active_Directory_Family_of_Client_IDs)
 
