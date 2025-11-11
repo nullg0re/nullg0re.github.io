@@ -32,7 +32,7 @@ I’m a former US Marine and served during Operation Iraqi Freedom as a Field Ra
 I live in the Chicagoland area with my wife Amber, my three kids, and my two dogs. They are the reason why I work as hard as I do everyday, and the reason I strive to be a better person today than I was yesterday. You guys are my everything! Love you guys!
 
 
-Some of my previous work can be found:
+# Some of my previous work can be found below:
 
 ## Speaking Engagments
 - [Whoami Podcast: Episode 1](https://www.youtube.com/watch?v=rE2eBnE1LtA)
