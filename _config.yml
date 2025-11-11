@@ -18,7 +18,19 @@ linkedin_username: "tony-gore-73a5b454"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+#theme: "minima"
+theme: 'primer'
+#theme: 'slate'
+#theme: 'midnight'
+#theme: 'hacker'
+#theme: 'architect'
+#theme: 'cayman'
+#theme: 'dinky'
+#theme: 'modernist'
+#theme: 'leap-day'
+#theme: 'time-machine'
+#theme: 'merlot'
+#theme: 'tactile'
 
 rss: rss
 

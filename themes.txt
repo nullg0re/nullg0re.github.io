@@ -1,0 +1,13 @@
+theme = 'primer'
+theme = 'slate'
+theme = 'midnight'
+theme = 'hacker'
+theme = 'architect'
+theme = 'cayman'
+theme = 'dinky'
+theme = 'modernist'
+theme = 'leap-day'
+theme = 'time-machine'
+theme = 'merlot'
+theme = 'tactile'
+
