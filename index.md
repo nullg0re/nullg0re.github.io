@@ -32,9 +32,9 @@ I’m a former US Marine and served during Operation Iraqi Freedom as a Field Ra
 I live in the Chicagoland area with my wife Amber, my three kids, and my two dogs. They are the reason why I work as hard as I do everyday, and the reason I strive to be a better person today than I was yesterday. You guys are my everything! Love you guys!
 
 
-# Some of my previous work can be found below:
+## Some of my previous work can be found below:
 
-## Speaking Engagments
+#### Speaking Engagments
 - [Whoami Podcast: Episode 1](https://www.youtube.com/watch?v=rE2eBnE1LtA)
 
 - [Secureworks 2023 Threat Intelligence Summit](https://www.youtube.com/watch?v=tPd2YNwSU_s&list=PLxRGn34ciSGKDe-1t7bBV0Y0iww0pVuZs&index=25)
@@ -43,7 +43,7 @@ I live in the Chicagoland area with my wife Amber, my three kids, and my two dog
 
 - [BlackHat Europe 2021 Arsenal: WhiskeySAML&Friend](https://www.blackhat.com/eu-21/arsenal/schedule/#whiskeysaml-and-friends-25024)
 
-## External Blog Postings
+#### External Blog Postings
 - [Leveraging CrowdStrike Falcon Against Attacks Targeting Okta Environments](https://www.crowdstrike.com/en-us/blog/leveraging-crowdstrike-falcon-against-attacks-targeting-okta/)
 
 - [Kubernetes IngressNightmare Vulnerabilities: What You Need To Know](https://www.crowdstrike.com/en-us/blog/kubernetes-ingressnightmare-vulnerabilities-key-details/)
@@ -60,13 +60,13 @@ I live in the Chicagoland area with my wife Amber, my three kids, and my two dog
 
 - [PEN-300: Evasion Techniques and Breaching Defenses Review](https://www.offsec.com/offsec/pen300-osep-review-nullg0re/)
 
-## Open-Source Tools (Outside of Personal GitHub)
+#### Open-Source Tools (Outside of Personal GitHub)
 - [WhiskeySAML&Friends Golden SAML Attack Framework](https://github.com/secureworks/whiskeysamlandfriends)
 
 - [Cloudy-Loot](https://github.com/secureworks/Cloudy-Loot)
 
 - [Family of Client IDs (FOCI) Research](https://github.com/secureworks/family-of-client-ids-research)
 
-## Published Research
+#### Published Research
 - [Family of Client IDs Research](https://www.researchgate.net/publication/360490896_Family_Matters_Abusing_Family_Refresh_Tokens_to_Gain_Unauthorised_Access_to_Microsoft_Cloud_Services_Exploratory_Study_of_Azure_Active_Directory_Family_of_Client_IDs)
 
