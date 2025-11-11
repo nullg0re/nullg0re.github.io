@@ -44,6 +44,12 @@ Some of my previous work can be found:
 - [BlackHat Europe 2021 Arsenal: WhiskeySAML&Friend](https://www.blackhat.com/eu-21/arsenal/schedule/#whiskeysaml-and-friends-25024)
 
 ## External Blog Postings
+- [Leveraging CrowdStrike Falcon Against Attacks Targeting Okta Environments](https://www.crowdstrike.com/en-us/blog/leveraging-crowdstrike-falcon-against-attacks-targeting-okta/)
+
+- [Kubernetes IngressNightmare Vulnerabilities: What You Need To Know](https://www.crowdstrike.com/en-us/blog/kubernetes-ingressnightmare-vulnerabilities-key-details/)
+
+- [How Falcon Next-Gen SIEM Protects Enterprises from VMware vCenter Attacks](https://www.crowdstrike.com/en-us/blog/falcon-next-gen-siem-protects-against-vmware-vcenter-attacks/)
+
 - [Permissive Avere Contributor Role Allows VM Credential Dumping](https://www.secureworks.com/research/permissive-avere-contributor-role-allows-virtual-machine-credential-dumping)
 
 - [Azure Redirect URI Takeover Vulnerability Threat Analysis](https://www.secureworks.com/research/azure-redirect-uri-takeover-vulnerability)
@@ -53,12 +59,6 @@ Some of my previous work can be found:
 - [Azure Active Directory Domain Service Privilege Escalation](https://www.secureworks.com/research/azure-active-directory-domain-services-escalation-of-privilege)
 
 - [PEN-300: Evasion Techniques and Breaching Defenses Review](https://www.offsec.com/offsec/pen300-osep-review-nullg0re/)
-
-- [Leveraging CrowdStrike Falcon Against Attacks Targeting Okta Environments](https://www.crowdstrike.com/en-us/blog/leveraging-crowdstrike-falcon-against-attacks-targeting-okta/)
-
-- [Kubernetes IngressNightmare Vulnerabilities: What You Need To Know](https://www.crowdstrike.com/en-us/blog/kubernetes-ingressnightmare-vulnerabilities-key-details/)
-
-- [How Falcon Next-Gen SIEM Protects Enterprises from VMware vCenter Attacks](https://www.crowdstrike.com/en-us/blog/falcon-next-gen-siem-protects-against-vmware-vcenter-attacks/)
 
 ## Open-Source Tools (Outside of Personal GitHub)
 - [WhiskeySAML&Friends Golden SAML Attack Framework](https://github.com/secureworks/whiskeysamlandfriends)
