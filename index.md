@@ -54,6 +54,12 @@ Some of my previous work can be found:
 
 - ![PEN-300: Evasion Techniques and Breaching Defenses Review](https://www.offsec.com/offsec/pen300-osep-review-nullg0re/)
 
+- ![Leveraging CrowdStrike Falcon Against Attacks Targeting Okta Environments](https://www.crowdstrike.com/en-us/blog/leveraging-crowdstrike-falcon-against-attacks-targeting-okta/)
+
+- ![Kubernetes IngressNightmare Vulnerabilities: What You Need To Know](https://www.crowdstrike.com/en-us/blog/kubernetes-ingressnightmare-vulnerabilities-key-details/)
+
+- ![How Falcon Next-Gen SIEM Protects Enterprises from VMware vCenter Attacks](https://www.crowdstrike.com/en-us/blog/falcon-next-gen-siem-protects-against-vmware-vcenter-attacks/)
+
 ## Open-Source Tools (Outside of Personal GitHub)
 - ![WhiskeySAML&Friends Golden SAML Attack Framework](https://github.com/secureworks/whiskeysamlandfriends)
 
