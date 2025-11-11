@@ -28,8 +28,8 @@ linkedin_username: "tony-gore-73a5b454"
 #remote_theme: pages-themes/dinky@v0.2.0
 #remote_theme: pages-themes/modernist@v0.2.0
 #remote_theme: pages-themes/leap-day@v0.2.0
-remote_theme: pages-themes/time-machine@v0.2.0
-#remote_theme: pages-themes/merlot@v0.2.0
+#remote_theme: pages-themes/time-machine@v0.2.0
+remote_theme: pages-themes/merlot@v0.2.0
 #remote_theme: pages-themes/tactile@v0.2.0
 
 rss: rss
