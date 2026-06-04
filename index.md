@@ -1,7 +1,7 @@
 # WHOAMI
 My name is Anthony Larcher-Gore. Otherwise known as Tony Gore or Nullg0re online.
 
-![Headshot](./headshot.jpeg)
+![Headshot](./headshot.png)
 
 I am Security Researcher for CrowdStrike and was a Security Research and Penetration Tester for Secureworks Counter Threat Unit and Secureworks Adversary Group in a previous life. I was also an avid Bug Hunter, having worked for Synack, HackerOne, BugCrowd, Intigriti, Google Cloud, and Microsoft’s bug bounty programs. I was recently announced as a 2023 and 2024 Microsoft Most Valuable Researcher (MVR) for performing Security Research within the Microsoft Ecosystem.
 
